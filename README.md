@@ -18,6 +18,12 @@ competition — predicting `SalePrice` from ~80 property features.
 Stacked ensemble validation RMSE: **0.0995** (on log-transformed `SalePrice`, matching the
 competition's evaluation metric).
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Contents
 
 - `regression.ipynb` — full pipeline: EDA, imputation, feature engineering, model
